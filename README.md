@@ -62,16 +62,14 @@ Figure below illustrates the spinal abnormalities covered in our dataset:👇
 
 ---
 
-## Benchmarking 15 Multimodal Large Language Models (MLLMs)  
+## Benchmarking Results  
 
-<!-- Add benchmarking table image here -->
+We benchmark SpineXR-VQA across **15 state-of-the-art multimodal large language models (MLLMs)**, including proprietary, general-purpose open-weight, and medical-domain models, under both **zero-shot** and **fine-tuned** settings. Overall, proprietary models achieve higher semantic similarity scores in zero-shot evaluation, while medical-domain and fine-tuned models show improved performance across lexical and n-gram–based metrics.
 
-SpineXR-VQA has been used to benchmark **15 state-of-the-art multimodal large language models (MLLMs)**, enabling systematic evaluation of:
+Despite moderate semantic alignment, performance analysis reveals consistent shortcomings in **anatomical fidelity, clinical completeness, and fine-grained diagnostic reasoning**, particularly for location- and severity-related questions. Fine-tuning improves surface-level metrics but does not fully address clinically meaningful reasoning errors, underscoring the need for **specialized models and datasets tailored to spinal VQA**.
 
-- Visual grounding accuracy  
-- Anatomical localization reliability  
-- Diagnostic consistency  
-- Hallucination and failure patterns  
+
+![SpineXR-VQA Examples](asset/MLLM-Benchmarking.png)
 
 ---
 
