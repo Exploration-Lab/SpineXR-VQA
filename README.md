@@ -25,6 +25,7 @@ Representative examples from the SpineXR-VQA dataset is shown below. 👇
 ## Key Features  
 
 - Spine-specific Med-VQA dataset based on **X-ray radiographs**
+- Number of images : **2,187**, Number of QA pairs: **8,272**
 - Covers the **cervical, thoracic, and lumbar** spine regions
 - Clinically grounded question–answer pairs aligned with real-world radiology workflows
 - Fully **open-ended question–answer pairs**, avoiding fixed classification labels
@@ -34,8 +35,6 @@ Representative examples from the SpineXR-VQA dataset is shown below. 👇
 - Suitable for **model evaluation, error analysis, and interpretability studies**
 
 ---
-
-## Motivation  
 
 ## Motivation  
 
@@ -50,47 +49,15 @@ SpineXR-VQA is motivated by this gap. By providing open-ended, expert-verified q
 
 ---
 
-## Dataset Characteristics  
-
-- **Imaging Modality:**  
-  - Plain radiographs (X-ray)
-
-- **Anatomical Regions:**  
-  - Cervical spine  
-  - Thoracic spine  
-  - Lumbar spine  
-
-- **Question Types:**  
-  - Abnormality detection  
-  - Anatomical localization  
-  - Attribute description (alignment, deformity, collapse)  
-  - Diagnostic interpretation  
-  - Clinical reasoning and follow-up implications  
-
-- **Answer Style:**  
-  - Concise and clinically grounded  
-  - Avoids speculative or unsafe medical claims  
-
----
-
-## Example of the Dataset  
-
-<!-- Add example image(s) with corresponding question–answer pairs here -->
-
-This section demonstrates how spinal X-ray images are paired with clinically meaningful questions and expert-curated answers.
-
----
-
 ## Abnormalities Covered  
 
-<!-- Add representative abnormality images here -->
+SpineXR-VQA captures a diverse range of spinal conditions commonly encountered in routine radiological practice. The dataset demonstrates balanced coverage across major pathological categories, enabling evaluation of both abnormality detection and normal-case reasoning.
 
-SpineXR-VQA primarily focuses on abnormalities relevant to spinal trauma and assessment, including:
+Degenerative changes (**32.7%**), osteophytes (**31.3%**), and vertebral fractures (**28.7%**) constitute the most frequently represented abnormalities. In addition, approximately **25.5%** of the images contain **no abnormal findings**, supporting assessment of false-positive behavior and normal anatomy recognition.
 
-- Vertebral fractures  
-- Compression deformities  
-- Alignment abnormalities  
-- Degenerative changes relevant to fracture interpretation  
+Lower-frequency conditions, including foraminal stenosis, kyphosis, scoliosis, and implant or hardware-related cases, collectively account for **less than 10%** of the dataset and are grouped under **Other (<10%)**. This distribution reflects real-world clinical prevalence while maintaining sufficient diversity for robust model evaluation.
+
+Figure below illustrates the spinal abnormalities covered in our dataset:👇
 
 ---
 
