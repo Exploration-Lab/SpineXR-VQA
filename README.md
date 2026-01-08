@@ -58,6 +58,7 @@ Degenerative changes (**32.7%**), osteophytes (**31.3%**), and vertebral fractur
 Lower-frequency conditions, including foraminal stenosis, kyphosis, scoliosis, and implant or hardware-related cases, collectively account for **less than 10%** of the dataset and are grouped under **Other (<10%)**. This distribution reflects real-world clinical prevalence while maintaining sufficient diversity for robust model evaluation.
 
 Figure below illustrates the spinal abnormalities covered in our dataset:👇
+![SpineXR-VQA Examples](asset/Abnormality-Coverage.png)
 
 ---
 
