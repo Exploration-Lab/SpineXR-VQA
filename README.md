@@ -89,13 +89,29 @@ These findings highlight the challenges of applying general-purpose MLLMs to **h
 ## Dataset Structure  
 
 
-Each annotation entry includes:
-- Image identifier  
-- Question  
-- Ground-truth answer  
-- Question category (when applicable)
+## Dataset Structure  
 
----
+The SpineXR-VQA dataset is organized by **geographic source** and **train–test split** to support reproducible evaluation and controlled benchmarking. Image files and corresponding annotations are stored separately.
+
+Dataset/
+│
+├── Final_images/
+│   ├── Thailand_images_train/
+│   ├── Thailand_images_test/
+│   ├── India_images_train/
+│   └── India_images_test/
+│
+├── Final_CSV/
+│   ├── Train_th.csv
+│   ├── Test_th.csv
+│   ├── Train_in.csv
+│   └── Test_in.csv
+
+- **Final_images/** contains spinal X-ray images grouped by country of origin and split into training and testing sets.
+- **Final_CSV/** contains the corresponding QA pairs files in CSV format.
+- Each CSV file includes image identifiers, open-ended questions, ground-truth answers, and question category labels.
+- Country-specific splits enable analysis of geographic variability and support controlled cross-domain evaluation.
+
 
 ## Limitations  
 
