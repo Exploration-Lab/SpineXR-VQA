@@ -6,13 +6,13 @@
 
 
 --- 
-## 👀 Overview  
+## Overview  
 
 SpineXR-VQA is an open-source, clinically grounded **Medical Visual Question Answering (Med-VQA)** benchmark designed to address the under-explored domain of spinal and musculoskeletal imaging. While recent Med-VQA research has advanced clinical decision support in areas such as pneumonia, oncology, and neurology, spine-focused reasoning remains limited due to the lack of domain-specific datasets and realistic evaluation protocols.
 
 The dataset comprises **2,187 spinal X-ray images** paired with **8,272 expert-verified, open-ended question–answer pairs**, curated to reflect the descriptive and diagnostic reasoning used in real-world clinical practice. SpineXR-VQA includes six expert-validated question categories: **abnormality, severity, location, diagnosis, treatment, and  reasoning**.
 
-All annotations were validated by **ten orthopedic specialists from India and Thailand**, ensuring both clinical reliability and geographic diversity, with high inter-rater agreement (Cohen’s Kappa: 0.96 for questions and 0.93 for answers). In addition to dataset curation, SpineXR-VQA provides a comprehensive benchmark of **15 state-of-the-art multimodal large language models (MLLMs)**, revealing persistent challenges in anatomical fidelity and clinical completeness. The dataset is intended to support the development and evaluation of specialized vision–language models for spinal imaging.
+All question answer pairs were validated by **ten orthopedic specialists from India and Thailand** (five each), ensuring both clinical reliability and geographic diversity, with high inter-rater agreement (Cohen’s Kappa: 0.96 for questions and 0.93 for answers) on  283 shared image and 994 QA pairs. In addition to dataset curation, SpineXR-VQA provides a comprehensive benchmark of **15 state-of-the-art multimodal large language models (MLLMs)**, revealing persistent challenges in anatomical fidelity and clinical completeness. The dataset is intended to support the development and evaluation of specialized vision–language models for spinal imaging.
 
 Representative examples from the SpineXR-VQA dataset is shown below. 👇
 
@@ -25,24 +25,28 @@ Representative examples from the SpineXR-VQA dataset is shown below. 👇
 ## Key Features  
 
 - Spine-specific Med-VQA dataset based on **X-ray radiographs**
-- Covers **cervical, thoracic, and lumbar** spine regions
-- Clinically grounded question–answer pairs aligned with radiology workflows
-- Emphasis on **fracture-related reasoning** and anatomical localization
+- Covers the **cervical, thoracic, and lumbar** spine regions
+- Clinically grounded question–answer pairs aligned with real-world radiology workflows
+- Fully **open-ended question–answer pairs**, avoiding fixed classification labels
+- Emphasis on real-world clinical scenarios, supported by six expert-validated categories:  
+  **abnormality, severity, location, diagnosis, treatment, and clinical reasoning**
 - Supports benchmarking of **large multimodal language models (MLLMs)**
-- Suitable for **evaluation, error analysis, and interpretability studies**
+- Suitable for **model evaluation, error analysis, and interpretability studies**
 
 ---
 
 ## Motivation  
 
-Spinal injuries and degenerative conditions are among the most frequently encountered findings in routine radiological practice. However, existing Med-VQA datasets predominantly focus on chest X-rays, pathology slides, or general anatomical reasoning, offering **limited coverage of spinal imaging**.
+## Motivation  
 
-SpineXR-VQA is motivated by the need for:
-- Domain-specific evaluation of vision–language models on spinal pathology  
-- Clinically meaningful questions beyond surface-level visual recognition  
-- Safer and more reliable assessment of AI systems for musculoskeletal radiology  
+Recent advances in Medical Visual Question Answering (Med-VQA) have demonstrated promise in supporting clinical decision-making across domains such as pneumonia, oncology, and neurological disorders. However, **spinal and musculoskeletal imaging remains critically under-represented** in existing VQA benchmarks, despite its high prevalence in routine radiological practice.
 
-The dataset bridges the gap between **research-centric Med-VQA benchmarks** and **real-world clinical reasoning requirements**.
+Developing reliable VQA models for spinal imaging presents unique challenges. Accurate interpretation requires **fine-grained anatomical localization, differentiation between acute and chronic findings, and clinically complete diagnostic descriptions**, which are often not captured by classification-driven or template-based datasets. Existing benchmarks also lack evaluation protocols that reflect the **descriptive and reasoning-oriented interpretations used by clinicians**, limiting their applicability to real-world settings.
+
+Furthermore, recent multimodal large language models (MLLMs), while showing strong general visual–language capabilities, frequently fail to maintain **anatomical fidelity and diagnostic completeness** when applied to spinal X-rays. These limitations highlight the need for a **clinically grounded, expert-validated dataset** that enables rigorous evaluation of reasoning quality rather than surface-level semantic similarity.
+
+SpineXR-VQA is motivated by this gap. By providing open-ended, expert-verified question–answer pairs across clinically meaningful categories, the dataset aims to support the development, benchmarking, and critical analysis of vision–language models tailored for spinal imaging.
+
 
 ---
 
