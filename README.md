@@ -13,7 +13,7 @@ SpineXR-VQA is a specialized **Medical Visual Question Answering (Med-VQA)** dat
 
 Unlike general-purpose Med-VQA datasets, SpineXR-VQA focuses exclusively on **spine and musculoskeletal pathology**, addressing a critical gap where spinal conditions remain under-represented despite their high clinical prevalence.
 
-![SpineXR-VQA Examples](asset/SpineXR-VQA(Examples).png)
+![SpineXR-VQA Examples](asset/SpineXR-VQA(Example).png)
 
 
 ---
