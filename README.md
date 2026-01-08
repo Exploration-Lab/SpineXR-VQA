@@ -1,11 +1,9 @@
-# SpineXR-VQA: A Clinically-Validated VQA Dataset for Spine X-Rays
+# 🦴SpineXR-VQA: A Clinically-Validated VQA Dataset for Spine X-Rays
 
 [![Paper](https://img.shields.io/badge/Paper-ACM-blue)](INSERT_LINK_HERE) 
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange)](INSERT_HF_LINK) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# 🦴 SpineXR-VQA  
-**A Clinically Grounded Visual Question Answering Dataset for Spinal X-ray Imaging**
 
 ---
 
@@ -14,6 +12,9 @@
 SpineXR-VQA is a specialized **Medical Visual Question Answering (Med-VQA)** dataset designed for spinal X-ray imaging. The dataset targets clinically relevant reasoning tasks commonly performed by radiologists, including fracture detection, vertebral localization, and diagnostic interpretation.
 
 Unlike general-purpose Med-VQA datasets, SpineXR-VQA focuses exclusively on **spine and musculoskeletal pathology**, addressing a critical gap where spinal conditions remain under-represented despite their high clinical prevalence.
+
+![SpineXR-VQA Examples](assets/SpineXR-VQA(Examples).png)
+
 
 ---
 
