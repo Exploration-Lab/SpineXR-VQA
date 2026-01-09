@@ -90,8 +90,6 @@ These findings highlight the challenges of applying general-purpose MLLMs to **h
 
 ## Dataset Structure  
 
-## Dataset Structure  
-
 The SpineXR-VQA dataset is organized by **geographic source** and **train–test split** to support reproducible evaluation and controlled benchmarking. Image files and corresponding annotations are stored separately.
 
 ```text
