@@ -5,6 +5,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+The SpineXR-VQA dataset follows [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license. Users can share and adapt our dataset if they give credit to us and do not use our dataset for any commercial purposes. In other words, the dataset can be used for research purposes only. Commercial usage is not allowed.
+
+
 
 --- 
 ## Overview  
