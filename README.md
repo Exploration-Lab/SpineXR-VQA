@@ -90,23 +90,6 @@ These findings highlight the challenges of applying general-purpose MLLMs to **h
 
 ## Dataset Structure  
 
-The SpineXR-VQA dataset is organized by **geographic source** and **train–test split** to support reproducible evaluation and controlled benchmarking. Image files and corresponding annotations are stored separately.
-
-```text
-Dataset/
-│
-├── Final_images/
-│   ├── Thailand_images_train/
-│   ├── Thailand_images_test/
-│   ├── India_images_train/
-│   └── India_images_test/
-│
-├── Final_CSV/
-│   ├── Train_th.csv
-│   ├── Test_th.csv
-│   ├── Train_in.csv
-│   └── Test_in.csv
-```
 
 
 - **Final_images/** contains spinal X-ray images grouped by country of origin and split into training and testing sets.
