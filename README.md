@@ -1,7 +1,8 @@
 # 🦴SpineXR-VQA: A Clinically-Validated VQA Dataset for Spine X-Rays
 
-[![Paper](https://img.shields.io/badge/Paper-ACM-blue)](INSERT_LINK_HERE) 
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange)](INSERT_HF_LINK) 
+<!--[![Paper](https://img.shields.io/badge/Paper-ACM-blue)](INSERT_LINK_HERE) 
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange)](INSERT_HF_LINK)--> 
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
