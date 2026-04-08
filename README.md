@@ -14,47 +14,46 @@ The supplementary PDF is available in this repository. It contains detailed appe
 
 | Section | Title | Page |
 |---------|-------|------|
-| A | Prompt Templates for QA Generation | 4 |
-| B | Dataset Structure and Data Fields | 4 |
-| B.1 | CSV Files (Final_csv) | 5 |
-| B.2 | Image Folders (Final_images) | 5 |
-| C | Train and Test Set Examples | 6 |
-| D | Clinician Validation Form | 6 |
-| E | Fine-Grained Comparison of LLaMA and Gemini QA Outputs | 6 |
-| F | Sample Examples of all the Models | 9 |
-| G | Category-wise Evaluation Across Metrics | 39 |
-| G.1 | BERTScore | 39 |
-| G.2 | BLEU-4 | 39 |
-| G.3 | ROUGE-L | 40 |
-| G.4 | Semantic Similarity | 40 |
-| G.5 | TF-IDF Similarity | 41 |
-| H | Model Output Error Analysis | 41 |
+| A | Prompt Templates for QA Generation | 3 |
+| B | Dataset Structure and Data Fields | 3 |
+| B.1 | CSV Files (Final_csv) | 4 |
+| B.2 | Image Folders (Final_images) | 4 |
+| C | Train and Test Set Examples | 5 |
+| D | Clinician Validation Form | 5 |
+| E | Fine-Grained Comparison of LLaMA and Gemini QA Outputs | 5 |
+| F | Sample Examples of all the Models | 8 |
+| G | Category-wise Evaluation Across Metrics | 38 |
+| G.1 | BERTScore | 38 |
+| G.2 | BLEU-4 | 38 |
+| G.3 | ROUGE-L | 39 |
+| G.4 | Semantic Similarity | 39 |
+| G.5 | TF-IDF Similarity | 40 |
+| H | Model Output Error Analysis | 40 |
 
 **List of Tables**
 
 | Table | Description | Page |
 |-------|-------------|------|
-| 1 | Description of dataset fields | 6 |
-| 2 | Sample questions-answer pairs for Train set | 47 |
-| 3 | Sample questions-answer pair for Test set | 48 |
-| 4 | Fine-grained comparison of LLaMA and Gemini QA pairs for two representative SpineXR-VQA cases | 6 |
-| 5 | Representative sample example from all the models | 10 |
-| 6 | Representative clinical failure cases across evaluated models | 42 |
+| 1 | Description of dataset fields | 5 |
+| 2 | Sample questions-answer pairs for Train set | 46 |
+| 3 | Sample questions-answer pair for Test set | 47 |
+| 4 | Fine-grained comparison of LLaMA and Gemini QA pairs | 5 |
+| 5 | Representative sample example from all the models | 9 |
+| 6 | Representative clinical failure cases across evaluated models | 41 |
 
 **List of Figures**
 
 | Figure | Description | Page |
 |--------|-------------|------|
-| 1 | Prompt A used for generating training-set QA pairs with LLaMA 3.2 Vision-Instruct | 4 |
-| 2 | Prompt B used for generating test-set QA pairs emphasizing reasoning depth and open-ended interpretive questions | 5 |
-| 3 | Excerpt of the Google Form used for clinical validation | 9 |
-| 4 | Semantic similarity across clinical categories | 40 |
-| 5 | BERTScore across clinical categories | 41 |
-| 6 | BLEU-4 across clinical categories | 42 |
-| 7 | ROUGE-L across clinical categories | 46 |
-| 8 | TF-IDF similarity across clinical categories | 49 |
+| 1 | Prompt A — training-set QA pairs with LLaMA 3.2 Vision-Instruct | 3 |
+| 2 | Prompt B — test-set QA pairs emphasizing reasoning depth | 4 |
+| 3 | Excerpt of the Google Form used for clinical validation | 8 |
+| 4 | Semantic similarity across clinical categories | 39 |
+| 5 | BERTScore across clinical categories | 40 |
+| 6 | BLEU-4 across clinical categories | 41 |
+| 7 | ROUGE-L across clinical categories | 45 |
+| 8 | TF-IDF similarity across clinical categories | 48 |
 
----
 
 ## Overview
 
