@@ -8,50 +8,57 @@ The SpineXR-VQA dataset follows [CC-BY-NC-SA](https://creativecommons.org/licens
 
 ## 📄 Supplementary Material
 
-The supplementary PDF is available in the [`asset/`](asset/) folder as [`asset/supplementary-material.pdf`](asset/Supplementary-Material.pdf). It contains detailed appendices including prompt templates, dataset structure, clinician validation forms, model output examples, and category-wise evaluation results.
-### Appendix Table of Contents
+The supplementary PDF is available in this repository: [`asset/supplementary-material.pdf`](asset/supplementary-material.pdf)
 
-| Section | Title | Page |
-|---------|-------|------|
-| A | Prompt Templates for QA Generation | 3 |
-| B | Dataset Structure and Data Fields | 3 |
-| B.1 | CSV Files (Final_csv) | 4 |
-| B.2 | Image Folders (Final_images) | 4 |
-| C | Train and Test Set Examples | 5 |
-| D | Clinician Validation Form | 5 |
-| E | Fine-Grained Comparison of LLaMA and Gemini QA Outputs | 5 |
-| F | Sample Examples of all the Models | 8 |
-| G | Category-wise Evaluation Across Metrics | 38 |
-| G.1 | BERTScore | 38 |
-| G.2 | BLEU-4 | 38 |
-| G.3 | ROUGE-L | 39 |
-| G.4 | Semantic Similarity | 39 |
-| G.5 | TF-IDF Similarity | 40 |
-| H | Model Output Error Analysis | 40 |
+---
 
-**List of Tables**
+### Appendix — Table of Contents
+
+| | Section | Page |
+|---|---|---|
+| A | [Prompt Templates for QA Generation](docs/section-a.md) | 3 |
+| B | [Dataset Structure and Data Fields](docs/section-b.md) | 3 |
+| &nbsp;&nbsp;&nbsp;B.1 | [CSV Files (Final_csv)](docs/section-b.md#b1-csv-files-final_csv) | 4 |
+| &nbsp;&nbsp;&nbsp;B.2 | [Image Folders (Final_images)](docs/section-b.md#b2-image-folders-final_images) | 4 |
+| C | [Train and Test Set Examples](docs/section-c.md) | 5 |
+| D | [Clinician Validation Form](docs/section-d.md) | 5 |
+| E | [Fine-Grained Comparison of LLaMA and Gemini QA Outputs](docs/section-e.md) | 5 |
+| F | [Sample Examples of all the Models](docs/section-f.md) | 8 |
+| G | [Category-wise Evaluation Across Metrics](docs/section-g.md) | 38 |
+| &nbsp;&nbsp;&nbsp;G.1 | [BERTScore](docs/section-g.md#g1-bertscore) | 38 |
+| &nbsp;&nbsp;&nbsp;G.2 | [BLEU-4](docs/section-g.md#g2-bleu-4) | 38 |
+| &nbsp;&nbsp;&nbsp;G.3 | [ROUGE-L](docs/section-g.md#g3-rouge-l) | 39 |
+| &nbsp;&nbsp;&nbsp;G.4 | [Semantic Similarity](docs/section-g.md#g4-semantic-similarity) | 39 |
+| &nbsp;&nbsp;&nbsp;G.5 | [TF-IDF Similarity](docs/section-g.md#g5-tf-idf-similarity) | 40 |
+| H | [Model Output Error Analysis](docs/section-h.md) | 40 |
+
+---
+
+### List of Tables
 
 | Table | Description | Page |
-|-------|-------------|------|
-| 1 | Description of dataset fields | 5 |
-| 2 | Sample questions-answer pairs for Train set | 46 |
-| 3 | Sample questions-answer pair for Test set | 47 |
-| 4 | Fine-grained comparison of LLaMA and Gemini QA pairs | 5 |
-| 5 | Representative sample example from all the models | 9 |
-| 6 | Representative clinical failure cases across evaluated models | 41 |
+|---|---|---|
+| 12 | [Description of dataset fields](docs/section-b.md) | 5 |
+| 15 | [Fine-grained comparison of LLaMA and Gemini QA pairs for two representative **SpineXR-VQA** cases. Inline highlights mark semantically similar phrases across models.](docs/section-e.md) | 5 |
+| 16 | [Representative sample example from all the models. The image identifier is provided as an example header to reduce column redundancy.](docs/section-f.md) | 9 |
+| 17 | [Representative clinical failure cases across evaluated models. Clinically incorrect or misleading phrases are highlighted in ***blue bold italics***.](docs/section-h.md) | 41 |
+| 13 | [Sample questions-answer pairs for Train set](docs/section-c.md) | 46 |
+| 14 | [Sample questions-answer pair for Test set](docs/section-c.md) | 47 |
 
-**List of Figures**
+---
+
+### List of Figures
 
 | Figure | Description | Page |
-|--------|-------------|------|
-| 1 | Prompt A — training-set QA pairs with LLaMA 3.2 Vision-Instruct | 3 |
-| 2 | Prompt B — test-set QA pairs emphasizing reasoning depth | 4 |
-| 3 | Excerpt of the Google Form used for clinical validation | 8 |
-| 4 | Semantic similarity across clinical categories | 39 |
-| 5 | BERTScore across clinical categories | 40 |
-| 6 | BLEU-4 across clinical categories | 41 |
-| 7 | ROUGE-L across clinical categories | 45 |
-| 8 | TF-IDF similarity across clinical categories | 48 |
+|---|---|---|
+| 9 | [Prompt A used for generating training-set QA pairs with **LLaMA 3.2 Vision-Instruct**. This template directs the model to produce six QA pairs per X-ray image, covering abnormality, location, severity, diagnosis, reasoning, and treatment.](docs/section-a.md#figure-9--prompt-a) | 3 |
+| 10 | [Prompt B used for generating test-set QA pairs emphasizing reasoning depth and open-ended interpretive questions. This prompt is designed to test the generalization ability of multimodal models beyond templated pattern recognition.](docs/section-a.md#figure-10--prompt-b) | 4 |
+| 11 | [Excerpt of the Google Form used for clinical validation. Each form presents a spine X-ray image along with generated question–answer pairs. Clinicians assess the correctness of each question and answer using structured options (*Correct, Not Correct, Not Sure*) and provide corrections when necessary.](docs/section-d.md) | 8 |
+| 12 | [Semantic similarity across clinical categories.](docs/section-g.md#g4-semantic-similarity) | 39 |
+| 13 | [BERTScore across clinical categories.](docs/section-g.md#g1-bertscore) | 40 |
+| 14 | [BLEU-4 across clinical categories.](docs/section-g.md#g2-bleu-4) | 41 |
+| 15 | [ROUGE-L across clinical categories.](docs/section-g.md#g3-rouge-l) | 45 |
+| 16 | [TF-IDF similarity across clinical categories.](docs/section-g.md#g5-tf-idf-similarity) | 48 |
 
 
 ## Overview
