@@ -8,8 +8,7 @@ The SpineXR-VQA dataset follows [CC-BY-NC-SA](https://creativecommons.org/licens
 
 ## 📄 Supplementary Material
 
-The supplementary PDF is available in this repository. It contains detailed appendices including prompt templates, dataset structure, clinician validation forms, model output examples, and category-wise evaluation results.
-
+The supplementary PDF is available in the [`asset/`](asset/) folder as [`asset/supplementary-material.pdf`](asset/supplementary-material.pdf). It contains detailed appendices including prompt templates, dataset structure, clinician validation forms, model output examples, and category-wise evaluation results.
 ### Appendix Table of Contents
 
 | Section | Title | Page |
