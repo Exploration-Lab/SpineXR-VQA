@@ -104,9 +104,9 @@ Lower-frequency conditions, including foraminal stenosis, kyphosis, scoliosis, a
 
 Figure below illustrates the spinal abnormalities covered in our dataset: 👇
 
-![SpineXR-VQA Examples](asset/Abnormality-Coverage.png)
+![SpineXR-VQA Examples](asset/abnormality_coverage_image_level.pdf)
 
----
+---df
 
 ## Benchmarking Results
 
