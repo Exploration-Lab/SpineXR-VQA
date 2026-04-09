@@ -1,8 +1,6 @@
 [← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
 
----
 
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
 
 ---
 
@@ -44,4 +42,4 @@ Each split includes:
 
 ---
 
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+
