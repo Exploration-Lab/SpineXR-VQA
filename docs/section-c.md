@@ -1,4 +1,4 @@
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
 
 ---
 
@@ -83,3 +83,4 @@ Tables 13 and 14 present representative question–answer examples from the trai
 | Treatment | Given the presence of detected abnormalities, what are the recommended treatment or management strategies? | Management typically involves cervical spine immobilization using a collar or halo vest, followed by rehabilitation; surgical stabilization may be required in severe cases. |
 
 ---
+[← Back to Supplementary TOC](../README.md)
