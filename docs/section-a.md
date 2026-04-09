@@ -1,6 +1,4 @@
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
-
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
 
 ---
 
@@ -22,7 +20,7 @@ Both prompts constrained the LLM to produce concise, factual, anatomy-grounded a
 
 ## Figure 9 — Prompt A
 
-![Prompt A](../asset/figures/PROMPT-A.png)
+![Prompt A](../asset/figures/PROMPTA.png)
 
 > **Figure 9:** Prompt A used for generating training-set QA pairs with **LLaMA 3.2 Vision-Instruct**. This template directs the model to produce six QA pairs per X-ray image, covering abnormality, location, severity, diagnosis, reasoning, and treatment.
 
@@ -30,10 +28,9 @@ Both prompts constrained the LLM to produce concise, factual, anatomy-grounded a
 
 ## Figure 10 — Prompt B
 
-![Prompt B](../asset/figures/PROMPT-B.png)
+![Prompt B](../asset/figures/PROMPTB.png)
 
 > **Figure 10:** Prompt B used for generating test-set QA pairs emphasizing reasoning depth and open-ended interpretive questions. This prompt is designed to test the generalization ability of multimodal models beyond templated pattern recognition.
 
 ---
-
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
