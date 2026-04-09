@@ -1,5 +1,4 @@
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
-
+[← Back to Supplementary TOC](../README.md)
 ---
 
 # Section G — Category-wise Evaluation Across Metrics
@@ -62,4 +61,4 @@ TF-IDF similarity shows moderate performance with clearer separation between mod
 
 ---
 
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
