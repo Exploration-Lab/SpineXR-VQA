@@ -1,4 +1,4 @@
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
 
 ---
 
@@ -38,3 +38,4 @@ To examine semantic fidelity and lexical variation between model-generated QA pa
 | Treatment | What are the suggested treatment or management options for the detected abnormalities? | The suggested treatment or management options are **conservative measures** such as physical therapy, pain management, and lifestyle modifications, with possible surgical intervention for severe cases. | What treatment or management options might be suggested for these conditions? | Management usually starts with **conservative care**, including physical therapy, pain relievers (NSAIDs), and activity modification; if pain is severe or there is nerve compression, injections or **surgical intervention** may be considered. |
 
 ---
+[← Back to Supplementary TOC](../README.md)
