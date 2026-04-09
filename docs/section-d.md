@@ -1,4 +1,4 @@
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
 
 ---
 
@@ -14,9 +14,12 @@ To evaluate the SpineXR-VQA dataset, we developed a structured Google Form inter
 
 ## Figure 11 — Google Form Excerpt
 
-![Google Form Sample](../asset/figures/Google-form-sample.png)
+![Google Form Sample](../asset/figures/Google-form-sample-1.png)
+
+![Google Form Sample Cont..](../asset/figures/Untitled design (2)-1.png)
 
 > **Figure 11:** Excerpt of the Google Form used for clinical validation. Each form presents a spine X-ray image along with generated question–answer pairs. Clinicians assess the correctness of each question and answer using structured options (*Correct*, *Not Correct*, *Not Sure*) and provide corrections when necessary.
 
 ---
 
+[← Back to Supplementary TOC](../README.md)
