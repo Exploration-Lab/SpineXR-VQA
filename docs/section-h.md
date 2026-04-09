@@ -1,5 +1,4 @@
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
-
+[← Back to Supplementary TOC](../README.md)
 ---
 
 # Section H — Model Output Error Analysis
@@ -83,4 +82,4 @@ This section presents a fine-grained qualitative analysis of clinically relevant
 
 ---
 
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
