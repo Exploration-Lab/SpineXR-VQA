@@ -14,7 +14,7 @@ This section presents a fine-grained qualitative analysis of clinically relevant
 
 ## Table 17 — Representative Clinical Failure Cases
 
-> ⚠️ Clinically incorrect or misleading phrases are marked in **_bold italics_** below.
+ > ⚠️ **Note:** Clinically incorrect or misleading phrases are marked in **bold** in the Model Output column below.
 
 ---
 
