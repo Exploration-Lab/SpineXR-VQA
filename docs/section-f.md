@@ -1,4 +1,4 @@
-[← Back to Supplementary TOC](../SUPPLEMENTARY_README.md)
+[← Back to Supplementary TOC](../README.md)
 
 ---
 
@@ -456,3 +456,4 @@ In this section, we present two representative qualitative outputs for each eval
 
 ---
 
+[← Back to Supplementary TOC](../README.md)
