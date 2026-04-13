@@ -145,6 +145,8 @@ These findings highlight the challenges of applying general-purpose MLLMs to **h
 - Each CSV file includes image_id,category,question,asnwer.
 - Country-specific splits enable analysis of geographic variability and support controlled cross-domain evaluation.
 
+Dataset samples are available in the [`Dataset-sample`](./Dataset-sample) directory
+
 ---
 
 ## Limitations
