@@ -142,7 +142,7 @@ These findings highlight the challenges of applying general-purpose MLLMs to **h
 
 - **Final_images/** contains spinal X-ray images grouped by country of origin and split into training and testing sets.
 - **Final_CSV/** contains the corresponding question–answer files in CSV format.
-- Each CSV file includes image identifiers, open-ended questions, ground-truth answers, and question category labels.
+- Each CSV file includes image_id,category,question,asnwer.
 - Country-specific splits enable analysis of geographic variability and support controlled cross-domain evaluation.
 
 ---
