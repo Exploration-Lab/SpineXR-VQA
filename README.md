@@ -1,8 +1,8 @@
 # 🦴SpineXR-VQA: A Clinically-Validated VQA Dataset for Spine X-Rays
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
 
-The SpineXR-VQA dataset follows [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license. Users can share and adapt our dataset if they give credit to us and do not use our dataset for any commercial purposes. In other words, the dataset can be used for research purposes only. Commercial usage is not allowed.
+The SpineXR-VQA dataset follows [CC-BY-NC-ND 4.0]((https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) license. Users can share and adapt our dataset if they give credit to us and do not use our dataset for any commercial purposes. In other words, the dataset can be used for research purposes only. Commercial usage is not allowed.
 
 ---
 
