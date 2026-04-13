@@ -35,10 +35,6 @@ Each CSV file contains the following fields:
 
 The `Final_images` directory contains image data organized by split: `India_train`, `India_test`, `Thai_train`, and `Thai_test`.
 
-Each split includes:
-
-- **`annotated_images/`** — PNG images with clinical annotations
-- **`unannotated_images/`** — Raw PNG images without annotations
 
 ---
 
