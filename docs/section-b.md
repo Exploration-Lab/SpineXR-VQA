@@ -35,7 +35,7 @@ Each CSV file contains the following fields:
 
 The `Final_images` directory contains image data organized by split: `India_train`, `India_test`, `Thai_train`, and `Thai_test`.
 
-Dataset samples are available in the [`Dataset-sample`](../Dataset-sample) directory.
+
 
 ---
 
