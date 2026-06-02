@@ -6,60 +6,6 @@ The SpineXR-VQA dataset follows [CC-BY-NC-ND 4.0]((https://creativecommons.org/l
 
 ---
 
-## 📄 Supplementary Material
-
-The supplementary PDF is available in this repository: [`asset/supplementary-material.pdf`](asset/supplementary-material.pdf)
-
----
-
-### Appendix — Table of Contents
-
-| | Section | Page |
-|---|---|---|
-| A | [Prompt Templates for QA Generation](docs/section-a.md) | 3 |
-| B | [Dataset Structure and Data Fields](docs/section-b.md) | 3 |
-| &nbsp;&nbsp;&nbsp;B.1 | [CSV Files (Final_csv)](docs/section-b.md#b1-csv-files-final_csv) | 4 |
-| &nbsp;&nbsp;&nbsp;B.2 | [Image Folders (Final_images)](docs/section-b.md#b2-image-folders-final_images) | 4 |
-| C | [Train and Test Set Examples](docs/section-c.md) | 5 |
-| D | [Clinician Validation Form](docs/section-d.md) | 5 |
-| E | [Fine-Grained Comparison of LLaMA and Gemini QA Outputs](docs/section-e.md) | 5 |
-| F | [Sample Examples of all the Models](docs/section-f.md) | 8 |
-| G | [Category-wise Evaluation Across Metrics](docs/section-g.md) | 38 |
-| &nbsp;&nbsp;&nbsp;G.1 | [BERTScore](docs/section-g.md#g1-bertscore) | 38 |
-| &nbsp;&nbsp;&nbsp;G.2 | [BLEU-4](docs/section-g.md#g2-bleu-4) | 38 |
-| &nbsp;&nbsp;&nbsp;G.3 | [ROUGE-L](docs/section-g.md#g3-rouge-l) | 39 |
-| &nbsp;&nbsp;&nbsp;G.4 | [Semantic Similarity](docs/section-g.md#g4-semantic-similarity) | 39 |
-| &nbsp;&nbsp;&nbsp;G.5 | [TF-IDF Similarity](docs/section-g.md#g5-tf-idf-similarity) | 40 |
-| H | [Model Output Error Analysis](docs/section-h.md) | 40 |
-
----
-
-### List of Tables
-
-| Table | Description | Page |
-|---|---|---|
-| 12 | [Description of dataset fields](docs/section-b.md) | 5 |
-| 15 | [Fine-grained comparison of LLaMA and Gemini QA pairs for two representative **SpineXR-VQA** cases. Inline highlights mark semantically similar phrases across models.](docs/section-e.md) | 5 |
-| 16 | [Representative sample example from all the models. The image identifier is provided as an example header to reduce column redundancy.](docs/section-f.md) | 9 |
-| 17 | [Representative clinical failure cases across evaluated models. Clinically incorrect or misleading phrases are highlighted in ***blue bold italics***.](docs/section-h.md) | 41 |
-| 13 | [Sample questions-answer pairs for Train set](docs/section-c.md) | 46 |
-| 14 | [Sample questions-answer pair for Test set](docs/section-c.md) | 47 |
-
----
-
-### List of Figures
-
-| Figure | Description | Page |
-|---|---|---|
-| 9 | [Prompt A used for generating training-set QA pairs with **LLaMA 3.2 Vision-Instruct**. This template directs the model to produce six QA pairs per X-ray image, covering abnormality, location, severity, diagnosis, reasoning, and treatment.](docs/section-a.md#figure-9--prompt-a) | 3 |
-| 10 | [Prompt B used for generating test-set QA pairs emphasizing reasoning depth and open-ended interpretive questions. This prompt is designed to test the generalization ability of multimodal models beyond templated pattern recognition.](docs/section-a.md#figure-10--prompt-b) | 4 |
-| 11 | [Excerpt of the Google Form used for clinical validation. Each form presents a spine X-ray image along with generated question–answer pairs. Clinicians assess the correctness of each question and answer using structured options (*Correct, Not Correct, Not Sure*) and provide corrections when necessary.](docs/section-d.md) | 8 |
-| 12 | [Semantic similarity across clinical categories.](docs/section-g.md#g4-semantic-similarity) | 39 |
-| 13 | [BERTScore across clinical categories.](docs/section-g.md#g1-bertscore) | 40 |
-| 14 | [BLEU-4 across clinical categories.](docs/section-g.md#g2-bleu-4) | 41 |
-| 15 | [ROUGE-L across clinical categories.](docs/section-g.md#g3-rouge-l) | 45 |
-| 16 | [TF-IDF similarity across clinical categories.](docs/section-g.md#g5-tf-idf-similarity) | 48 |
-
 
 ## Overview
 
@@ -146,7 +92,6 @@ These findings highlight the challenges of applying general-purpose MLLMs to **h
 - Country-specific splits enable analysis of geographic variability and support controlled cross-domain evaluation.
 
 
-
 ---
 
 ## Limitations
@@ -155,5 +100,58 @@ These findings highlight the challenges of applying general-purpose MLLMs to **h
 - Focuses primarily on **fracture-related reasoning**, not exhaustive spinal pathology
 - Not intended for autonomous clinical diagnosis or treatment decisions
 - Benchmark performance does not imply clinical safety or readiness
+## 📄 Supplementary Material
+
+The supplementary PDF is available in this repository: [`asset/supplementary-material.pdf`](asset/supplementary-material.pdf)
+
+---
+
+### Appendix — Table of Contents
+
+| | Section | Page |
+|---|---|---|
+| A | [Prompt Templates for QA Generation](docs/section-a.md) | 3 |
+| B | [Dataset Structure and Data Fields](docs/section-b.md) | 3 |
+| &nbsp;&nbsp;&nbsp;B.1 | [CSV Files (Final_csv)](docs/section-b.md#b1-csv-files-final_csv) | 4 |
+| &nbsp;&nbsp;&nbsp;B.2 | [Image Folders (Final_images)](docs/section-b.md#b2-image-folders-final_images) | 4 |
+| C | [Train and Test Set Examples](docs/section-c.md) | 5 |
+| D | [Clinician Validation Form](docs/section-d.md) | 5 |
+| E | [Fine-Grained Comparison of LLaMA and Gemini QA Outputs](docs/section-e.md) | 5 |
+| F | [Sample Examples of all the Models](docs/section-f.md) | 8 |
+| G | [Category-wise Evaluation Across Metrics](docs/section-g.md) | 38 |
+| &nbsp;&nbsp;&nbsp;G.1 | [BERTScore](docs/section-g.md#g1-bertscore) | 38 |
+| &nbsp;&nbsp;&nbsp;G.2 | [BLEU-4](docs/section-g.md#g2-bleu-4) | 38 |
+| &nbsp;&nbsp;&nbsp;G.3 | [ROUGE-L](docs/section-g.md#g3-rouge-l) | 39 |
+| &nbsp;&nbsp;&nbsp;G.4 | [Semantic Similarity](docs/section-g.md#g4-semantic-similarity) | 39 |
+| &nbsp;&nbsp;&nbsp;G.5 | [TF-IDF Similarity](docs/section-g.md#g5-tf-idf-similarity) | 40 |
+| H | [Model Output Error Analysis](docs/section-h.md) | 40 |
+
+---
+
+### List of Tables
+
+| Table | Description | Page |
+|---|---|---|
+| 12 | [Description of dataset fields](docs/section-b.md) | 5 |
+| 15 | [Fine-grained comparison of LLaMA and Gemini QA pairs for two representative **SpineXR-VQA** cases. Inline highlights mark semantically similar phrases across models.](docs/section-e.md) | 5 |
+| 16 | [Representative sample example from all the models. The image identifier is provided as an example header to reduce column redundancy.](docs/section-f.md) | 9 |
+| 17 | [Representative clinical failure cases across evaluated models. Clinically incorrect or misleading phrases are highlighted in ***blue bold italics***.](docs/section-h.md) | 41 |
+| 13 | [Sample questions-answer pairs for Train set](docs/section-c.md) | 46 |
+| 14 | [Sample questions-answer pair for Test set](docs/section-c.md) | 47 |
+
+---
+
+### List of Figures
+
+| Figure | Description | Page |
+|---|---|---|
+| 9 | [Prompt A used for generating training-set QA pairs with **LLaMA 3.2 Vision-Instruct**. This template directs the model to produce six QA pairs per X-ray image, covering abnormality, location, severity, diagnosis, reasoning, and treatment.](docs/section-a.md#figure-9--prompt-a) | 3 |
+| 10 | [Prompt B used for generating test-set QA pairs emphasizing reasoning depth and open-ended interpretive questions. This prompt is designed to test the generalization ability of multimodal models beyond templated pattern recognition.](docs/section-a.md#figure-10--prompt-b) | 4 |
+| 11 | [Excerpt of the Google Form used for clinical validation. Each form presents a spine X-ray image along with generated question–answer pairs. Clinicians assess the correctness of each question and answer using structured options (*Correct, Not Correct, Not Sure*) and provide corrections when necessary.](docs/section-d.md) | 8 |
+| 12 | [Semantic similarity across clinical categories.](docs/section-g.md#g4-semantic-similarity) | 39 |
+| 13 | [BERTScore across clinical categories.](docs/section-g.md#g1-bertscore) | 40 |
+| 14 | [BLEU-4 across clinical categories.](docs/section-g.md#g2-bleu-4) | 41 |
+| 15 | [ROUGE-L across clinical categories.](docs/section-g.md#g3-rouge-l) | 45 |
+| 16 | [TF-IDF similarity across clinical categories.](docs/section-g.md#g5-tf-idf-similarity) | 48 |
 
 SpineXR-VQA is intended **strictly for research and educational use**.
